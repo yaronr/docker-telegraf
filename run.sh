@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -m
 CONFIG_FILE="/config/telegraf.conf"
 
 if [ "${INFLUXDB_HOST}" == "**None**" ]; then
