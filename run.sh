@@ -12,4 +12,4 @@ fi
 
 echo "=> Starting Telegraf ..."
 
-telegraf -config ${CONFIG_FILE}
+exec "telegraf -config ${CONFIG_FILE}"
