@@ -15,4 +15,4 @@ RUN chmod +x /run.sh
 
 ENV INFLUXDB_HOST **None**
 
-CMD ["/run.sh"]
+ENTRYPOINT ["/run.sh"]
